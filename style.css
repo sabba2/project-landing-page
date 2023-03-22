@@ -1,3 +1,5 @@
+/* header */
+
 .header {
   background-color: #1f2937;
   display: flex;
@@ -18,8 +20,46 @@ h2.logo {
   align-items: center;
 }
 
-.navbar .link {
+.navbar .link,
+.title h3 {
   font-size: 18px;
   color: #e5e7eb;
   font-family: Helvetica, Arial, sans-serif;
+}
+/*title block */
+
+.main-content {
+  display: flex;
+  padding: 100px 150px;
+  background-color: #1f2937;
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  flex: 1 1 200px;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #f9faf8;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 7px 25px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+img {
+  max-width: 450px;
+  height: auto;
+  align-self: center;
 }
