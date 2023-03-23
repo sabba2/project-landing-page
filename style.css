@@ -78,7 +78,7 @@ img {
 .icon-container {
   display: flex;
   justify-content: center;
-  padding: 35px 75px 75px 75px;
+  padding: 35px 200px 75px 200px;
   gap: 50px 50px;
   flex-wrap: wrap;
 }
@@ -151,6 +151,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .action-container h2 {
@@ -167,8 +169,9 @@ img {
   margin: 0;
 }
 
-.action-container .action {
+.action {
   margin-right: 30px;
+  flex: 1 1 200px;
 }
 
 .action-container button {
@@ -180,12 +183,8 @@ img {
   border: 3px solid white;
   white-space: nowrap;
   font-size: 18px;
-  flex-wrap: wrap;
 }
 
-.action {
-  min-width: 200px;
-}
 .footer {
   background-color: #1f2937;
   display: flex;
