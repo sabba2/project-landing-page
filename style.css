@@ -20,13 +20,12 @@ h2.logo {
   align-items: center;
 }
 
-.navbar .link,
-.title h3 {
+h3 {
   font-size: 18px;
   color: #e5e7eb;
   font-family: Helvetica, Arial, sans-serif;
 }
-/*title block */
+/*main content block*/
 
 .main-content {
   display: flex;
@@ -62,4 +61,46 @@ img {
   max-width: 450px;
   height: auto;
   align-self: center;
+}
+
+/* information */
+
+.info {
+  display: flex; /* Perhaps make whole body a flex column? */
+  flex-direction: column;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px 100px 50px;
+  gap: 50px 75px;
+  flex-wrap: wrap;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 0 1 180px;
+}
+
+.img-box {
+  height: 150px;
+  width: 150px;
+  border: solid 3px rgb(17, 127, 190);
+  border-radius: 10px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.info h3 {
+  color: #1f2937;
+  text-align: center;
 }
